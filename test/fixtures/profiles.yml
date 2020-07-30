@@ -6,7 +6,7 @@
 #  birthday     :date
 #  gender       :integer
 #  introduction :text
-#  nicknamex    :string
+#  nickname     :string
 #  subscribed   :boolean          default(FALSE)
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null

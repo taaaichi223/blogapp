@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2020_07_30_105449) do
 
   create_table "profiles", force: :cascade do |t|
     t.integer "user_id", null: false
-    t.string "nicknamex"
+    t.string "nickname"
     t.text "introduction"
     t.integer "gender"
     t.date "birthday"
